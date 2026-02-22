@@ -1,28 +1,107 @@
-.blue {
-    color:blue;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
 }
-.red{
-    color:red;
+
+header{
+    width: 90%;
+    padding: 15px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
-.box1{
-    width: 500px;
-    height: 200px;
-    border: 2px dashed #666;
+
+footer{
+    width: 100%;
+    background-color: #444;
+    text-align: center;
+    padding: 26px 0;
+    color: #fff;
 }
-.box2{
-    width:100%;
-    padding: 10px;
-    background-color: #fff4c3;
-    border: 3px solid #ff8410;
-    box-sizing: border-box;      /* 追加 */
+a {
+    text-decoration: none;
 }
-@media screen and (max-width:768px){
-    .box{
-        background-color:blue;
-    }    
+
+.main-nav{
+    display: flex;
+    list-style: none;
 }
-@media screen and (max-width:480px){
-    .box{
-        background-color: green;
-    }    
+.main-nav li{
+    margin-left: 36px;
+    coler: #435;
+}
+
+.main-nav li:hover {
+    color: #0ba;
+}
+header {
+    width: 90%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin-top: 14px;
+}
+footer {
+    width: 100%;
+    background-color: #444;
+    text-align: center;
+    padding: 26px 0;
+    color: #fff;
+}
+.main-visual {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.main-visual p {
+    font-size: 1.2rem;
+    margin: 10px 0 40px;
+}
+
+.main-title {
+    font-size: 4rem;
+    font-family: 'Times New Roman',Times,serif;
+    font-weight: normal;
+}
+
+.btn {
+    font-size: 1.2rem;
+    background-color: #0ba;
+    color: #fff;
+    border-radius: 30px;
+    padding: 20px 50px;
+}
+
+.btn:hover {
+    background-color: #0090dd;
+}
+#top {
+    min-height: 100vh;
+    background-image: url(./img/cafemain.jpg);
+    background-size: cover;
+}
+
+.heading a {
+    font-family: 'Times New Roman',Times,serif;
+    color: #1b0704;
+}
+
+.main-nav li a {
+    margin-left: 36px;
+    color: #1b0704;
+}
+
+.main-nav li a:hover {
+    color #0ba;
+}
+
+.main-visual {
+    text-align: center;
+    margin-top: 20%;
+    color: #1b0704;
 }
